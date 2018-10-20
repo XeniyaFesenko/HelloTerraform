@@ -6,9 +6,9 @@ This is sample code for Terraform pratices
 ==================================================================================
 
 =======================================================================================
-Infrastrure as code : It makes feel working like deveopler. Some nice way of coding!!.
+Infrastructure as code : It makes me feel working like developer. Nice way of coding!!.
 
-This is and end commands execution / Click on "NEXT" screens.
+This is an end to age old of commands execution / Click on "NEXT" screens ONLY!!.
 
 =======================================================================================
 
