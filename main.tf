@@ -9,15 +9,15 @@ terraform {
 
 
 provider "aws" {
-  access_key = "AKIA4P56N3H6C5HDZ676"
-  secret_key = "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"
+  access_key = "AKIAWU23RWYCJE4SZ4MO"
+  secret_key = "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"
   region     = "us-east-1"
 }
 
 terraform {
   backend "s3" {
     encrypt = false
-    bucket= "tf-statefile-demo"
+    bucket= "tf-statefile-demo01"
     dynamodb_table = "tf-state-lock-dynamo"
     key = "path/path/terraform-tfstate"
     region = "us-east-1"
