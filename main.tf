@@ -17,7 +17,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     encrypt = false
-    bucket= "tf-statefile-demo01"
+    bucket= "tf-statefile-demo02"
     dynamodb_table = "tf-state-lock-dynamo"
     key = "path/path/terraform-tfstate"
     region = "us-east-1"
