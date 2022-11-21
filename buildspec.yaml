@@ -20,7 +20,7 @@ phases:
       - terraform init
   build:
     commands:
-      - terraform $TF_COMMAND -auto-aprove
+      - terraform $TF_COMMAND -auto-approve
 
   post_build:
     commands:
