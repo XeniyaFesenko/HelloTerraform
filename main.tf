@@ -31,7 +31,7 @@ terraform {
 # }
 
 resource "aws_ecr_repository" "tf-ecr" {
-  name                 = "bar"
+  name                 = "ft-ect"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
