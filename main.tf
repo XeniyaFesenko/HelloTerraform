@@ -19,7 +19,7 @@ terraform {
     encrypt = false
     bucket= "tf-statefile-demo02"
     dynamodb_table = "tf-state-lock-dynamo"
-    key = "path/path/terraform-tfstate"
+    key = "path/path/tf-state-lock-dynamo"
     region = "us-east-1"
     
   }
