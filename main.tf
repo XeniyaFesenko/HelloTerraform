@@ -25,7 +25,16 @@ terraform {
   }
 } 
 
-resource "aws_instance" "example" {
-  ami           = "ami-00b6a8a2bd28daf19"
-  instance_type = "t2.micro"
+# resource "aws_instance" "example" {
+#   ami           = "ami-00b6a8a2bd28daf19"
+#   instance_type = "t2.micro"
+# }
+
+resource "aws_ecr_repository" "tf-ecr" {
+  name                 = "bar"
+  image_tag_mutability = "MUTABLE"
+
+  image_scanning_configuration {
+    scan_on_push = true
+  }
 }
